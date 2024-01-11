@@ -1,8 +1,43 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <RootNamespace>ResultVisualBasic</RootNamespace>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Introduction
+
+Welcome to the ResultVisualBasic project! This project introduces a fully tested Result Monad for Visual Basic (VB), providing developers with a robust and functional way to handle the outcomes of operations. Whether you are a VB developer looking to improve error handling or a contributor interested in functional programming.
+
+    Features 
+
+    * Generic Type: The Result Monad is implemented as a generic type in VB, ensuring flexibility and compatibility with various data types.
+    * Immutable: Instances of the Result Monad are immutable, promoting a consistent and predictable flow of data through functional transformations.
+    * Success and Failure Handling: Easily check whether an operation was successful or resulted in an error, providing explicit handling for success and failure scenarios.
+    * Error Details: In case of failure, the Result Monad includes information about the error, aiding in effective error diagnosis.
+    * Map and Bind Operations: Support for map and bind operations, allowing developers to apply functions to encapsulated values without unwrapping explicitly.
+    * Composability: Result Monads can be composed, simplifying error handling and promoting modular and expressive code structures.
+
+
+</Description>
+    <Copyright>(c) Justin Kasteleijn 2024</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>rawr.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/JustinKasteleijn/ResultVisualBasic</RepositoryUrl>
+    <PackageTags>Result, Rust, Monad, Maybe, Functional, VB, VisualBasic, Learn Rust</PackageTags>
+    <PackageReleaseNotes>Fully working result monad. Not yet implemented any Enumerable variants.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <Version>1.0.0</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Afbeeldingen\rawr.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="readme.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
